@@ -10,10 +10,4 @@ import Foundation
 
 print("Goodbye, World!")
 
-let name = "David Bryson"
 
-print(name)
-
-print ("NO!")
-
-let name2 = "no"
