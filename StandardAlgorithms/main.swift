@@ -16,3 +16,4 @@ print(name)
 
 print ("NO!")
 
+let name2 = "no"
