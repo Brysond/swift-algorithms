@@ -53,8 +53,33 @@ class SortingTest: XCTestCase {
         //act
         //assert
         for testCase in testCases {
-            let actual = sorting.mergeArrays(left: testCase.leftInput, right: testCase.rightInput)
+            let actual = sorting.mergeArrays2(left: testCase.leftInput, right: testCase.rightInput)
             XCTAssertEqual(actual, testCase.expected)
+        }
+        func testMergeSortReturnsSortedArrays() {
+            //arrange
+            let sorting = Sorting()
+            let testCases = [(input: [5,4,3,2,1], expected: [1,2,3,4,5]),
+                             (input:[10,9,8,7,6,5,4,3,2,1], expected: [1,2,3,4,5,6,7,8,9,10])]
+            //act
+            //assert
+            for testCase in testCases {
+                let actual = sorting.mergeSort(unsortedArray:testCase.input)
+                XCTAssertEqual(actual, testCase.expected)
+            }
+        }
+        
+        func testMergeSortPerformance() {
+            //arrange
+            let sorting = Sorting()
+            let testCases = [(input: [5,4,3,2,1], expected: [1,2,3,4,5]),
+                             (input:[10,9,8,7,6,5,4,3,2,1], expected: [1,2,3,4,5,6,7,8,9,10])]
+            //act
+            for testCase in testCases {
+                measure {
+                    sorting.mergeSort(unsortedArray:testCase.input)
+                }
+            }
         }
     }
 }
