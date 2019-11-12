@@ -78,7 +78,7 @@ func displayAlgorithms() {
     print("""
     Binary Search
         
-    Binary Search goes to the midpoint of an array and compares the value of to the target, if it is the target it gets returned, otherwise, if the midpoint is less than the target, the lower half of the list is discarded, and it the midpoint is more than the target, the upper half is discarded.
+    Binary Search goes to the midpoint of an array and compares the value of the midpoint to the target, if it is the target it gets returned, otherwise, if the midpoint is less than the target, the lower half of the list is discarded, and it the midpoint is more than the target, the upper half is discarded.
     This is repeated until the target is found
     Binary search search only works on sorted lists.
     Big O notation:
