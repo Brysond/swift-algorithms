@@ -138,7 +138,7 @@ class SortingTest: XCTestCase {
     
     func testLinearSearchReturnsCorrectBooleanVariable() {
         //arrange
-        let sorting = Sorting()
+        let sorting = Searching()
         let testCases = [(input: [1,2,3,4,5], expected: true),
                          (input:[1,2,3,4], expected: false)]
         //act
@@ -151,7 +151,7 @@ class SortingTest: XCTestCase {
     
     func testLinearSearchPerformace5() {
         //arrange
-        let sorting = Sorting()
+        let sorting = Searching()
         var data: Array<Int> = []
         for _ in 0...4 {
             data.append(Int.random(in: 0..<5))
@@ -164,7 +164,7 @@ class SortingTest: XCTestCase {
     
     func testLinearSearchPerformace50() {
         //arrange
-        let sorting = Sorting()
+        let sorting = Searching()
         var data: Array<Int> = []
         for _ in 0...49 {
             data.append(Int.random(in: 0..<50))
@@ -177,7 +177,7 @@ class SortingTest: XCTestCase {
     
     func testLinearSearchPerformace500() {
         //arrange
-        let sorting = Sorting()
+        let sorting = Searching()
         var data: Array<Int> = []
         for _ in 0...499 {
             data.append(Int.random(in: 0..<500))
@@ -190,7 +190,7 @@ class SortingTest: XCTestCase {
     
     func testBinarySearchReturnsCorrectBooleanVariable() {
         //arrange
-        let sorting = Sorting()
+        let sorting = Searching()
         let testCases = [(input: [1,2,3,4,5], expected: true),
                          (input:[1,2,3,4], expected: false)]
         //act
@@ -203,7 +203,7 @@ class SortingTest: XCTestCase {
     
     func testBinarySearchPerformance() {
         //arrange
-        let sorting = Sorting()
+        let sorting = Searching()
         var data: Array<Int> = []
         for i in 0...4 {
             data.append(i+1)
@@ -216,7 +216,7 @@ class SortingTest: XCTestCase {
     
     func testBinarySearchPerformance50() {
         //arrange
-        let sorting = Sorting()
+        let sorting = Searching()
         var data: Array<Int> = []
         for i in 0...49 {
             data.append(i+1)
@@ -229,7 +229,7 @@ class SortingTest: XCTestCase {
     
     func testBinarySearchPerformance500() {
         //arrange
-        let sorting = Sorting()
+        let sorting = Searching()
         var data: Array<Int> = []
         for i in 0...499 {
             data.append(i+1)
