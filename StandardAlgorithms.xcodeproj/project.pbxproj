@@ -7,13 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6F2C26082379E65600BB6FCA /* SearchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2C26072379E65600BB6FCA /* SearchingTest.swift */; };
-		6F2C26092379E65600BB6FCA /* SearchingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2C26072379E65600BB6FCA /* SearchingTest.swift */; };
 		6FBEC80C23743DBC0005EF85 /* SortingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEC80B23743DBC0005EF85 /* SortingTest.swift */; };
 		6FBEC80E23743F120005EF85 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEC80D23743F120005EF85 /* Sorting.swift */; };
 		6FBEC80F23743F470005EF85 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEC80D23743F120005EF85 /* Sorting.swift */; };
 		6FF8FAB623718CC200C7021B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8FAB523718CC200C7021B /* main.swift */; };
-		6FF8FAC32371923800C7021B /* StandardAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8FAC22371923800C7021B /* StandardAlgorithmsTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,13 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6F2C26072379E65600BB6FCA /* SearchingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchingTest.swift; sourceTree = "<group>"; };
 		6FBEC80B23743DBC0005EF85 /* SortingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTest.swift; sourceTree = "<group>"; };
 		6FBEC80D23743F120005EF85 /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 		6FF8FAB223718CC200C7021B /* StandardAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StandardAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF8FAB523718CC200C7021B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6FF8FAC02371923800C7021B /* StandardAlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandardAlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FF8FAC22371923800C7021B /* StandardAlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardAlgorithmsTests.swift; sourceTree = "<group>"; };
 		6FF8FAC42371923800C7021B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,8 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				6FBEC80B23743DBC0005EF85 /* SortingTest.swift */,
-				6F2C26072379E65600BB6FCA /* SearchingTest.swift */,
-				6FF8FAC22371923800C7021B /* StandardAlgorithmsTests.swift */,
 				6FF8FAC42371923800C7021B /* Info.plist */,
 			);
 			path = StandardAlgorithmsTests;
@@ -185,7 +178,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FBEC80E23743F120005EF85 /* Sorting.swift in Sources */,
-				6F2C26082379E65600BB6FCA /* SearchingTest.swift in Sources */,
 				6FF8FAB623718CC200C7021B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,9 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FBEC80F23743F470005EF85 /* Sorting.swift in Sources */,
-				6F2C26092379E65600BB6FCA /* SearchingTest.swift in Sources */,
 				6FBEC80C23743DBC0005EF85 /* SortingTest.swift in Sources */,
-				6FF8FAC32371923800C7021B /* StandardAlgorithmsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
