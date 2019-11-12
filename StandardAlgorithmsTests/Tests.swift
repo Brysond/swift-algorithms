@@ -41,7 +41,7 @@ class SortingTest: XCTestCase {
         
         //act
         measure {
-            sorting.bubbleSort(data: data)
+            _ = sorting.bubbleSort(data: data)
         }
     }
     
@@ -55,7 +55,7 @@ class SortingTest: XCTestCase {
         
         //act
         measure {
-            sorting.bubbleSort(data: data)
+            _ = sorting.bubbleSort(data: data)
         }
     }
     
@@ -70,7 +70,7 @@ class SortingTest: XCTestCase {
         
         //act
         measure {
-            sorting.bubbleSort(data: data)
+            _ = sorting.bubbleSort(data: data)
         }
     }
     
@@ -106,7 +106,7 @@ class SortingTest: XCTestCase {
         let testCase = [5,4,3,2,1]
         //act
         measure {
-            sorting.mergeSort(unsortedArray:testCase)
+            _ = sorting.mergeSort(unsortedArray:testCase)
         }
     }
     
@@ -119,7 +119,7 @@ class SortingTest: XCTestCase {
         }
         //act
         measure {
-            sorting.mergeSort(unsortedArray:data)
+            _ = sorting.mergeSort(unsortedArray:data)
         }
     }
     
@@ -131,7 +131,7 @@ class SortingTest: XCTestCase {
             data.append(Int.random(in: 0..<500))
         }        //act
         measure {
-            sorting.mergeSort(unsortedArray:data)
+            _ = sorting.mergeSort(unsortedArray:data)
         }
     }
     
@@ -158,7 +158,7 @@ class SortingTest: XCTestCase {
         }
         //act
         measure {
-            sorting.linearSearch(input: data)
+            _ = sorting.linearSearch(input: data)
         }
     }
     
@@ -171,7 +171,7 @@ class SortingTest: XCTestCase {
         }
         //act
         measure {
-            sorting.linearSearch(input: data)
+            _ = sorting.linearSearch(input: data)
         }
     }
     
@@ -184,7 +184,7 @@ class SortingTest: XCTestCase {
         }
         //act
         measure {
-            sorting.linearSearch(input: data)
+            _ = sorting.linearSearch(input: data)
         }
     }
     
@@ -210,7 +210,7 @@ class SortingTest: XCTestCase {
         }
         //act
         measure {
-            sorting.binarySearch(sortedArray:data)
+            _ = sorting.binarySearch(sortedArray:data)
         }
     }
     
@@ -223,7 +223,7 @@ class SortingTest: XCTestCase {
         }
         //act
         measure {
-            sorting.binarySearch(sortedArray:data)
+            _ = sorting.binarySearch(sortedArray:data)
         }
     }
     
@@ -236,7 +236,7 @@ class SortingTest: XCTestCase {
         }
         //act
         measure {
-            sorting.binarySearch(sortedArray:data)
+            _ = sorting.binarySearch(sortedArray:data)
         }
     }
     
@@ -259,7 +259,7 @@ class SortingTest: XCTestCase {
         let testCase = [5,4,3,2,1]
         //act
         measure {
-            sorting.quickSort(data:testCase)
+            _ = sorting.quickSort(data:testCase)
         }
     }
     
@@ -272,7 +272,7 @@ class SortingTest: XCTestCase {
         }
         //act
         measure {
-            sorting.quickSort(data:data)
+            _ = sorting.quickSort(data:data)
         }
     }
     
@@ -284,7 +284,7 @@ class SortingTest: XCTestCase {
             data.append(Int.random(in: 0..<500))
         }        //act
         measure {
-            sorting.quickSort(data:data)
+            _ = sorting.quickSort(data:data)
         }
     }
     
@@ -307,7 +307,7 @@ class SortingTest: XCTestCase {
         let testCase = [5,4,3,2,1]
         //act
         measure {
-            sorting.insertionSort(data:testCase)
+            _ = sorting.insertionSort(data:testCase)
         }
     }
     
@@ -320,7 +320,7 @@ class SortingTest: XCTestCase {
         }
         //act
         measure {
-            sorting.insertionSort(data:data)
+            _ = sorting.insertionSort(data:data)
         }
     }
     
@@ -332,7 +332,7 @@ class SortingTest: XCTestCase {
             data.append(Int.random(in: 0..<500))
         }        //act
         measure {
-            sorting.insertionSort(data:data)
+            _ = sorting.insertionSort(data:data)
         }
     }
 

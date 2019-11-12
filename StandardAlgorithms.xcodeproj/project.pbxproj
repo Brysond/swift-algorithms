@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6FBEC80C23743DBC0005EF85 /* SortingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEC80B23743DBC0005EF85 /* SortingTest.swift */; };
+		6FBEC80C23743DBC0005EF85 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEC80B23743DBC0005EF85 /* Tests.swift */; };
 		6FBEC80E23743F120005EF85 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEC80D23743F120005EF85 /* Sorting.swift */; };
 		6FBEC80F23743F470005EF85 /* Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBEC80D23743F120005EF85 /* Sorting.swift */; };
 		6FF8FAB623718CC200C7021B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8FAB523718CC200C7021B /* main.swift */; };
@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6FBEC80B23743DBC0005EF85 /* SortingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingTest.swift; sourceTree = "<group>"; };
+		6FBEC80B23743DBC0005EF85 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6FBEC80D23743F120005EF85 /* Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorting.swift; sourceTree = "<group>"; };
 		6FF8FAB223718CC200C7021B /* StandardAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StandardAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF8FAB523718CC200C7021B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		6FF8FAC12371923800C7021B /* StandardAlgorithmsTests */ = {
 			isa = PBXGroup;
 			children = (
-				6FBEC80B23743DBC0005EF85 /* SortingTest.swift */,
+				6FBEC80B23743DBC0005EF85 /* Tests.swift */,
 				6FF8FAC42371923800C7021B /* Info.plist */,
 			);
 			path = StandardAlgorithmsTests;
@@ -187,7 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FBEC80F23743F470005EF85 /* Sorting.swift in Sources */,
-				6FBEC80C23743DBC0005EF85 /* SortingTest.swift in Sources */,
+				6FBEC80C23743DBC0005EF85 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
