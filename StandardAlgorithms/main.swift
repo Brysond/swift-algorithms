@@ -1,11 +1,13 @@
 import Foundation
-func displayAlgorithms() {
+/*
+func display() {
     var testCase = [Int]()
     for _ in 0..<10 {
         testCase.append(Int.random(in: 0...100 ))
     }
     let binarySearchTestCase = [1,2,5,7,9,14,17,57]
     let sorting = Sorting()
+    let searching = Searching()
     
     print("""
     
@@ -69,7 +71,7 @@ func displayAlgorithms() {
     Input: \(testCase)
     Target: 5
     """)
-    if sorting.linearSearch(input: testCase) == true {
+    if searching.linearSearch(input: testCase) == true {
         print("Output: Value found!")
     } else {
         print("Output: Value not found")
@@ -92,11 +94,12 @@ func displayAlgorithms() {
     """)
     
     
-    if sorting.binarySearch(sortedArray: binarySearchTestCase) == true {
+    if searching.binarySearch(sortedArray: binarySearchTestCase) == true {
         print("Output: Value found!")
     } else {
         print("Output: Value not found")
     }
     
 }
-displayAlgorithms()
+display()
+*/
